@@ -28,7 +28,6 @@ a:hover{
 }
 img{
 	width: 100px;
-	margin: 22px;
 }
 section{
 	width: 100%;
@@ -36,8 +35,20 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 #inicio{
-	flex-direction: column;
 	background-color: blue;
+}
+#sobre{
+	background-color: green;
+}
+#estudando{
+	background-color: yellow;
+}
+#projetos{
+	background-color: purple;
+}
+#social{
+	background-color: white;
 }
