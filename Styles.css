@@ -1,0 +1,27 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, Sans-Serif;
+	background-color: gray;
+}
+header{
+	color: white;
+	text-shadow: 1px 1px 3px black;
+	padding: 1px;
+	background: linear-gradient(to top, cyan, rgb(0, 123, 255));
+	text-align: center;
+}
+a{
+	color: white;
+	padding: 1px 10px;
+	text-decoration: none;
+	font-family: Sans-Serif;
+}
+a:hover{
+	background: rgba(0, 123, 255, 0.8);
+	color: cyan;
+}
+img{
+	width: 200px;
+	border-radius: 100%;
+}
