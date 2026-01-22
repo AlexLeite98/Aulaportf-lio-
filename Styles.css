@@ -1,6 +1,4 @@
 body{
-	padding: 0px;
-	margin: 0px;
 	font-family: Arial, Sans-Serif;
 	background-color: gray;
 }
@@ -23,8 +21,10 @@ a:hover{
 }
 img{
 	width: 200px;
+	margin: 22px;
 }
 section{
 	background-color: blue;
 	text-align: center;
+	
 }
