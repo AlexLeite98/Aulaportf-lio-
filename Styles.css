@@ -5,7 +5,7 @@
 }
 body{
 	font-family: Arial, Sans-Serif;
-	background-color: gray;
+	background: linear-gradient(to top,#0040AE, #1D52AE, #3A65A2, #5777AE );
 }
 header{
 	position: fixed;
@@ -15,6 +15,11 @@ header{
 	padding: 1px;
 	background: linear-gradient(to top, cyan, rgb(0, 123, 255));
 	text-align: center;
+}
+h1{
+	font-family: Times;
+	color: white;
+	text-shadow: 1px 1px 3px black;
 }
 a{
 	color: white;
@@ -27,7 +32,9 @@ a:hover{
 	color: cyan;
 }
 img{
-	width: 100px;
+	width: 200px;
+	border-radius: 100%;
+	box-shadow: 1px 1px 3px black;
 }
 section{
 	width: 100%;
