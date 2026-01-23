@@ -44,18 +44,3 @@ section{
 	align-items: center;
 	flex-direction: column;
 }
-#inicio{
-	background-color: blue;
-}
-#sobre{
-	background-color: green;
-}
-#estudando{
-	background-color: yellow;
-}
-#projetos{
-	background-color: purple;
-}
-#social{
-	background-color: white;
-}
