@@ -13,7 +13,8 @@ header{
 	color: white;
 	text-shadow: 1px 1px 3px black;
 	padding: 1px;
-	background: linear-gradient(to top, cyan, rgb(0, 123, 255));
+	background: #3A65A2;
+	box-shadow: 0px 1px 3px #3A65A2;
 	text-align: center;
 }
 h1{
@@ -28,13 +29,14 @@ a{
 	font-family: Sans-Serif;
 }
 a:hover{
-	background: rgba(0, 123, 255, 0.8);
-	color: cyan;
+	border-radius: 20px;
+	background: #7489AE;
+	color: black;
 }
 img{
 	width: 200px;
 	border-radius: 100%;
-	box-shadow: 1px 1px 3px black;
+	border: 4px solid #919CAE;
 }
 section{
 	width: 100%;
@@ -43,4 +45,15 @@ section{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+}
+footer{
+	text-align: center;
+	background-color: #3A65A2;
+	color: white;
+	text-shadow: 1px 1px 3px black;
+	padding: 5px;
+	box-shadow: 0px -1px 3px #3A65A2;
+}
+#wpp{
+	font-size: 10px;
 }
