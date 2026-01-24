@@ -62,6 +62,6 @@ footer{
 	font-size: 10px;
 }
 abbr{
-    text-decoration: underline dotted;
+    text-decoration: none;
     cursor: help;
 }
